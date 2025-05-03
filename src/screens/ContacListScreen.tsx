@@ -243,10 +243,9 @@ function ContactListScreen() {
         {/* Botón Añadir en Header (Alternativa) */}
          <View style={styles.headerButtons}>
              <Button title="+ Añadir" onPress={navigateToAddContact} color="#6200ee"/>
-             <View style={{ width: 10 }} /> {/* Separador */}
+             <View style={{ width: 10 }} />
              <Button title="Cerrar Sesión" onPress={handleLogout} color="#ff4d4d"/>
          </View>
-
 
         {renderContent()}
     </SafeAreaView>
